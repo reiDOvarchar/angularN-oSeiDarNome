@@ -1,0 +1,18 @@
+table{
+    position: absolute;
+    background-color: rgb(164, 247, 201);
+    right: 20%;
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    font-size: 120%;
+    border-width: 2px;
+    border-color: black;
+    width: 500px;
+}
+
+
+
+table, tbody, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

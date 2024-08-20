@@ -1,0 +1,19 @@
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Data de nascimento</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let usuario of coracao">
+            <td>{{ usuario["nome"] }}</td>
+            <td>{{ usuario["cpf"] }}</td>
+            <td>{{ usuario["data"] }}</td>
+        </tr>
+    </tbody>
+</table>
+<app-pai (passarPessoa)="onPassouPessoa($event)"></app-pai>
+<!-- <app-amizade [pessoa]="pessoa"></app-amizade> -->
+

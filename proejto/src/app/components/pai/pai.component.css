@@ -1,0 +1,29 @@
+div{
+    position: absolute;
+    background-color: rgb(164, 247, 201);
+    left: 10%;
+    
+    padding: 2%;
+    font-size: 130%;
+    border-width: 2px;
+    border-color: black;
+}
+
+input{
+    padding: 0.5%;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+hr{
+    background-color: rgb(97, 97, 97);
+}
+
+button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+    padding: 1%;
+}

@@ -1,0 +1,10 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
